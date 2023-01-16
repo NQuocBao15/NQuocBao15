@@ -1,6 +1,6 @@
 let matrix = new Array(10);
 for (let row = 0; row < matrix.length; row++) {
-    matrix[row] = Math.floor(Math.random() * 10);
+    matrix[row] = Math.floor(Math.random() * 11);
 }
 console.log(matrix);
 
